@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew Oestreicher — AI Product & Growth</title>
+  <meta name="description" content="Product Manager with 5 years of experience across AI, Payments, and Growth product. MBA and Master's in AI and ML Candidate at Columbia Business School and Columbia Engineering.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Andrew Oestreicher — AI Product & Growth">
+  <meta property="og:description" content="Product Manager with 5 years of experience across AI, Payments, and Growth product. MBA and Master's in AI and ML Candidate at Columbia Business School and Columbia Engineering.">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="/" class="nav-logo">AO</a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#side-projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#volunteering">Volunteering</a>
+        <a href="#contact" class="btn-nav">Get in Touch</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#work">Work</a>
+    <a href="#side-projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#volunteering">Volunteering</a>
+    <a href="#contact">Get in Touch</a>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="container">
+      <p class="hero-tag">AI Product &amp; Growth &middot; MBA + MS in AI/ML &middot; Columbia</p>
+      <h1 class="hero-title">Product Leader<br>Delivering Outcomes.</h1>
+      <p class="hero-sub">Product Manager with 5 years of experience across AI, Payments, and Growth product. Track record of success as IC and Group PM leading teams from 5 to 30.<br>MBA and Master's in AI and ML Candidate at Columbia Business School and Columbia Engineering.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="work">
+    <div class="container">
+      <h2 class="section-label">Selected Work</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-meta">Capital One &middot; Group Product Manager</div>
+          <h3 class="project-title">AI Bank Account Switching</h3>
+          <p>Led zero-to-one delivery of a bank account switching experience, driving a 30+ person cross-functional team to scale to 5M customers. Architected the ML modeling platform; 75% recall, 85% precision, 100M+ transactions enriched, and 5 patent applications filed. Won the CTO Tech Excellence Award.</p>
+          <div class="project-tags">
+            <span>Zero-to-One</span>
+            <span>ML Platform</span>
+            <span>IP</span>
+            <span>Growth</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">Capital One &middot; Senior Product Manager</div>
+          <h3 class="project-title">Onboarding & Growth Systems</h3>
+          <p>Built the Onboarding Checklist; defined UX requirements, API architecture, and experiment design. Achieved 58% CTR across 4M users. Also designed and shipped an A/B test that increased adoption of a cash deposit service by 20% across 1M users.</p>
+          <div class="project-tags">
+            <span>Growth</span>
+            <span>Funnel Optimization</span>
+            <span>Experimentation</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">Capital One &middot; Product Manager</div>
+          <h3 class="project-title">Payments & Personalization</h3>
+          <p>Delivered the bank's first ML-driven recurring transactions experience; reached 60K customers with a 95% satisfaction rate. Launched a redesigned mobile transfer flow that increased conversion by 13%.</p>
+          <div class="project-tags">
+            <span>ML Product</span>
+            <span>Payments</span>
+            <span>Customer Insights</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SIDE PROJECTS -->
+  <section class="section" id="side-projects">
+    <div class="container">
+      <h2 class="section-label">Projects</h2>
+      <p class="section-intro">Side projects I've built outside of work.</p>
+      <div class="posts-list">
+
+        <div class="post-item expandable" id="matching-project" onclick="toggleProject(this)">
+          <div class="post-date">2023</div>
+          <div class="post-content">
+            <h3>The Matching Project</h3>
+            <p>Co-founded a donation-matching tool that engaged young professionals in philanthropy. Raised $2,000 from 32 donors across 5 nonprofits in 48 hours.</p>
+          </div>
+          <span class="post-arrow">&darr;</span>
+        </div>
+        <div class="project-expanded" id="matching-project-detail">
+          <div class="project-expanded-inner">
+
+            <h4 class="expanded-heading">Key Metrics</h4>
+            <div class="metrics-row">
+              <div class="metric-item">
+                <span class="metric-value">48 hrs</span>
+                <span class="metric-label">Campaign Duration</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">$2K+</span>
+                <span class="metric-label">Raised</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">32</span>
+                <span class="metric-label">Unique Donors</span>
+              </div>
+            </div>
+
+            <h4 class="expanded-heading">Customer Feedback</h4>
+            <div class="feedback-grid">
+              <blockquote class="feedback-item">
+                <p class="feedback-source">The Jed Foundation (national suicide prevention)</p>
+                <p>"Thank you for your support! 💙"</p>
+              </blockquote>
+              <blockquote class="feedback-item">
+                <p class="feedback-source">Cure Blindness Project</p>
+                <p>"Your $25 will help someone previously blind to see again. That's amazing!"</p>
+              </blockquote>
+              <blockquote class="feedback-item">
+                <p class="feedback-source">User Feedback</p>
+                <p>"Andy, I absolutely love this idea! I tend to get stuck wondering where my donation will matter and which organizations will make the best use of the donation, so I appreciate that you put some work into picking out organizations you care about. Looking forward to seeing the impact you make!"</p>
+              </blockquote>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="post-item expandable" id="trip-roulette" onclick="toggleProject(this)">
+          <div class="post-date">2025</div>
+          <div class="post-content">
+            <h3>Trip Roulette</h3>
+            <p>An app that recommends travel itineraries based on user preferences and a curated list. Built with MapKit, an external flights API, and a proprietary routing algorithm. MVP shipped.</p>
+          </div>
+          <span class="post-arrow">&darr;</span>
+        </div>
+        <div class="project-expanded" id="trip-roulette-detail">
+          <div class="project-expanded-inner">
+            <a href="https://gitlab.com/mobileappdevelopmentios/ENGI4502Fall25/hathor/-/tree/5161578e5669f670cdbb099aa3262acd50740d8f/Trip%20Roulette/Trip%20Roulette" target="_blank" class="project-link">View Source on GitLab &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section section-alt" id="resume">
+    <div class="container">
+      <h2 class="section-label">Resume</h2>
+      <div class="resume-grid">
+        <div class="resume-col">
+          <h3 class="resume-heading">Experience</h3>
+
+          <div class="resume-item">
+            <div class="resume-period">2024 — 2025</div>
+            <div class="resume-detail">
+              <h4>Group Product Manager, AI Switching — Capital One</h4>
+              <p>Led zero-to-one AI switching product. 30+ person team, 5M customers. Architected ML platform with 5 patent applications. CTO Tech Excellence Award.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-period">2023 — 2024</div>
+            <div class="resume-detail">
+              <h4>Senior Product Manager, Growth — Capital One</h4>
+              <p>Onboarding Checklist (58% CTR, 4M users). Shipped tiered savings product in 4 months. Managed 3 PMs with individualized development plans.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-period">2021 — 2023</div>
+            <div class="resume-detail">
+              <h4>Product Manager, Payments &amp; Personalization — Capital One</h4>
+              <p>First ML-driven recurring transactions experience (60K customers, 95% CSAT). Redesigned mobile transfers — 13% conversion lift.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-period">2020 — 2021</div>
+            <div class="resume-detail">
+              <h4>Associate Product Manager, Recommendation Engine — Capital One</h4>
+              <p>Awarded U.S. Patent 20240046922 for ML augmentation technique. Secured executive buy-in for deep-learning on Enterprise Feature Platform.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="resume-col">
+          <h3 class="resume-heading">Education</h3>
+
+          <div class="resume-item">
+            <div class="resume-period">2025 — 2027</div>
+            <div class="resume-detail">
+              <h4>MBA — Columbia Business School</h4>
+              <p>Technology Strategy &amp; Product Management. Columbia Fellow (merit-based scholarship). VP roles in Entrepreneurship, Fintech, and Alleycon Tech Conference.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-period">2025 — 2027</div>
+            <div class="resume-detail">
+              <h4>MS in AI/ML — Columbia Engineering</h4>
+              <p>Engineering &amp; Applied Science — Artificial Intelligence &amp; Machine Learning.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-period">2016 — 2020</div>
+            <div class="resume-detail">
+              <h4>BS, Business Administration — Washington University</h4>
+              <p>Olin Business School. Entrepreneurship &amp; Accounting. Summa Cum Laude, Phi Beta Kappa, Beta Gamma Sigma.</p>
+            </div>
+          </div>
+
+          <h3 class="resume-heading" style="margin-top: 2rem;">Technical Skills</h3>
+          <div class="resume-item">
+            <div class="resume-detail">
+              <p>Python, Pandas, NumPy, Scikit-Learn, SQL, Tableau, Swift, HTML, Git, Jira, Confluence, Figma</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLUNTEERING -->
+  <section class="section section-alt" id="volunteering">
+    <div class="container">
+      <h2 class="section-label">Volunteering</h2>
+      <div class="posts-list">
+
+        <a href="https://www.thehopeprogram.org/" class="post-item" target="_blank">
+          <div class="post-date">2025 — 2026</div>
+          <div class="post-content">
+            <h3>The Hope Program</h3>
+            <p>New York City Workforce Development Program. Serve as advisor to build out Social Enterprise program with goal of continued support for program participants and revenue diversification.</p>
+          </div>
+          <span class="post-arrow">&rarr;</span>
+        </a>
+
+        <a href="https://www.kidpowerdc.org/" class="post-item" target="_blank">
+          <div class="post-date">2022 — 2025</div>
+          <div class="post-content">
+            <h3>Kid Power</h3>
+            <p>DC Based Youth Mentorship Program. Served as mentor to high school student as they navigate life transitions.</p>
+          </div>
+          <span class="post-arrow">&rarr;</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-block">
+        <h2 class="contact-title">Let's talk.</h2>
+        <div class="contact-ctas">
+          <a href="https://cal.com/aoestreicher" class="btn btn-primary" target="_blank">
+            <svg class="contact-icon-svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="2.5" width="14" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M1 6.5h14" stroke="currentColor" stroke-width="1.5"/><path d="M5 1v3M11 1v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            Schedule a Chat
+          </a>
+          <a href="https://www.linkedin.com/in/andrewoestreicher/" class="btn btn-secondary" target="_blank">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 Andrew Oestreicher</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
