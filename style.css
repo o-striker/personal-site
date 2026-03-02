@@ -316,7 +316,7 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--color-border);
 }
 .project-expanded.active {
-  max-height: 600px;
+  max-height: 1200px;
 }
 .project-expanded-inner {
   padding: var(--space-sm) 0 var(--space-md);
@@ -442,6 +442,9 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 768px) {
+  .hero { min-height: auto; padding-top: calc(var(--space-xl) + 64px); }
+  .projects-grid { grid-template-columns: 1fr; }
+  .post-item { padding: var(--space-md) 0.25rem; }
   .resume-grid { grid-template-columns: 1fr; }
   .resume-item { flex-direction: column; gap: 0.25rem; }
 }
